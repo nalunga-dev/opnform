@@ -64,10 +64,9 @@ export default function Navbar() {
         </div>
       </nav>
 
-      {/* Overlay */}
       {isOpen && (
         <div
-          className="fixed inset-0 bg-black bg-opacity-40 z-40"
+          className="fixed inset-0 bg-white bg-opacity-20 z-20"
           onClick={() => setIsOpen(false)}
         />
       )}
