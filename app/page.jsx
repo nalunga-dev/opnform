@@ -7,7 +7,6 @@ import WorkProcess from "./components/Work";
 import Ai from "./components/Ai";
 import Features from "./components/Features";
 import Pricing from "./components/Pricing";
-import Marquee from "./components/Macque";
 import LevelSection from "./components/Level";
 import SiteFooter from "./components/Footer";
 import Form from "./components/Form";
@@ -23,7 +22,7 @@ export default function Home() {
       <Ai />
       <Features />
       <Pricing />
-      <Marquee />
+
       <LevelSection />
       <Form />
       <SiteFooter />
